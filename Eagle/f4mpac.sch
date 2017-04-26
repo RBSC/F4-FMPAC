@@ -16604,55 +16604,134 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 </package>
 </packages>
 <symbols>
-<symbol name="27C256">
+<symbol name="27C512">
 <wire x1="-7.62" y1="30.48" x2="10.16" y2="30.48" width="0.254" layer="94"/>
 <wire x1="10.16" y1="30.48" x2="10.16" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-30.48" x2="-7.62" y2="-30.48" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-30.48" x2="-7.62" y2="30.48" width="0.254" layer="94"/>
 <text x="-7.62" y="31.75" size="1.778" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-33.02" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="A0" x="-10.16" y="12.7" length="short" direction="in"/>
-<pin name="A1" x="-10.16" y="10.16" length="short" direction="in"/>
-<pin name="A2" x="-10.16" y="7.62" length="short" direction="in"/>
-<pin name="A3" x="-10.16" y="5.08" length="short" direction="in"/>
-<pin name="A4" x="-10.16" y="2.54" length="short" direction="in"/>
-<pin name="A5" x="-10.16" y="0" length="short" direction="in"/>
-<pin name="A6" x="-10.16" y="-2.54" length="short" direction="in"/>
-<pin name="A7" x="-10.16" y="-5.08" length="short" direction="in"/>
-<pin name="A8" x="-10.16" y="-7.62" length="short" direction="in"/>
-<pin name="!CE" x="-10.16" y="17.78" length="short" direction="in"/>
-<pin name="!OE" x="-10.16" y="20.32" length="short" direction="in"/>
-<pin name="D0" x="12.7" y="12.7" length="short" direction="hiz" rot="R180"/>
-<pin name="D1" x="12.7" y="10.16" length="short" direction="hiz" rot="R180"/>
-<pin name="D2" x="12.7" y="7.62" length="short" direction="hiz" rot="R180"/>
-<pin name="D3" x="12.7" y="5.08" length="short" direction="hiz" rot="R180"/>
-<pin name="D4" x="12.7" y="2.54" length="short" direction="hiz" rot="R180"/>
-<pin name="D5" x="12.7" y="0" length="short" direction="hiz" rot="R180"/>
-<pin name="D6" x="12.7" y="-2.54" length="short" direction="hiz" rot="R180"/>
-<pin name="D7" x="12.7" y="-5.08" length="short" direction="hiz" rot="R180"/>
+<pin name="A0" x="-10.16" y="15.24" length="short" direction="in"/>
+<pin name="A1" x="-10.16" y="12.7" length="short" direction="in"/>
+<pin name="A2" x="-10.16" y="10.16" length="short" direction="in"/>
+<pin name="A3" x="-10.16" y="7.62" length="short" direction="in"/>
+<pin name="A4" x="-10.16" y="5.08" length="short" direction="in"/>
+<pin name="A5" x="-10.16" y="2.54" length="short" direction="in"/>
+<pin name="A6" x="-10.16" y="0" length="short" direction="in"/>
+<pin name="A7" x="-10.16" y="-2.54" length="short" direction="in"/>
+<pin name="A8" x="-10.16" y="-5.08" length="short" direction="in"/>
+<pin name="!CE" x="-10.16" y="20.32" length="short" direction="in"/>
+<pin name="VPP/!OE" x="-10.16" y="22.86" length="short" direction="in"/>
+<pin name="D0" x="12.7" y="15.24" length="short" direction="hiz" rot="R180"/>
+<pin name="D1" x="12.7" y="12.7" length="short" direction="hiz" rot="R180"/>
+<pin name="D2" x="12.7" y="10.16" length="short" direction="hiz" rot="R180"/>
+<pin name="D3" x="12.7" y="7.62" length="short" direction="hiz" rot="R180"/>
+<pin name="D4" x="12.7" y="5.08" length="short" direction="hiz" rot="R180"/>
+<pin name="D5" x="12.7" y="2.54" length="short" direction="hiz" rot="R180"/>
+<pin name="D6" x="12.7" y="0" length="short" direction="hiz" rot="R180"/>
+<pin name="D7" x="12.7" y="-2.54" length="short" direction="hiz" rot="R180"/>
 <pin name="VCC" x="-10.16" y="27.94" length="short" direction="pwr"/>
 <pin name="GND" x="-10.16" y="-27.94" length="short" direction="pwr"/>
-<pin name="A9" x="-10.16" y="-10.16" length="short" direction="in"/>
-<pin name="A10" x="-10.16" y="-12.7" length="short" direction="in"/>
-<pin name="A14" x="-10.16" y="-22.86" length="short" direction="in"/>
-<pin name="A11" x="-10.16" y="-15.24" length="short" direction="in"/>
-<pin name="A12" x="-10.16" y="-17.78" length="short" direction="in"/>
-<pin name="VPP" x="-10.16" y="25.4" length="short" direction="in"/>
-<pin name="A13" x="-10.16" y="-20.32" length="short" direction="in"/>
+<pin name="A9" x="-10.16" y="-7.62" length="short" direction="in"/>
+<pin name="A10" x="-10.16" y="-10.16" length="short" direction="in"/>
+<pin name="A14" x="-10.16" y="-20.32" length="short" direction="in"/>
+<pin name="A11" x="-10.16" y="-12.7" length="short" direction="in"/>
+<pin name="A12" x="-10.16" y="-15.24" length="short" direction="in"/>
+<pin name="A15" x="-10.16" y="-22.86" length="short" direction="in"/>
+<pin name="A13" x="-10.16" y="-17.78" length="short" direction="in"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="27*256" prefix="IC">
+<deviceset name="27*512A" prefix="IC">
 <description>CMOS &lt;B&gt;EPROM&lt;/B&gt;&lt;p&gt;
-256 K (32 K x 8), low voltage</description>
+512 K (64 K x 8)</description>
 <gates>
-<gate name="G$1" symbol="27C256" x="0" y="0"/>
+<gate name="G$1" symbol="27C512" x="0" y="0"/>
 </gates>
 <devices>
+<device name="P" package="DIL28-6">
+<connects>
+<connect gate="G$1" pin="!CE" pad="20"/>
+<connect gate="G$1" pin="A0" pad="10"/>
+<connect gate="G$1" pin="A1" pad="9"/>
+<connect gate="G$1" pin="A10" pad="21"/>
+<connect gate="G$1" pin="A11" pad="23"/>
+<connect gate="G$1" pin="A12" pad="2"/>
+<connect gate="G$1" pin="A13" pad="26"/>
+<connect gate="G$1" pin="A14" pad="27"/>
+<connect gate="G$1" pin="A15" pad="1"/>
+<connect gate="G$1" pin="A2" pad="8"/>
+<connect gate="G$1" pin="A3" pad="7"/>
+<connect gate="G$1" pin="A4" pad="6"/>
+<connect gate="G$1" pin="A5" pad="5"/>
+<connect gate="G$1" pin="A6" pad="4"/>
+<connect gate="G$1" pin="A7" pad="3"/>
+<connect gate="G$1" pin="A8" pad="25"/>
+<connect gate="G$1" pin="A9" pad="24"/>
+<connect gate="G$1" pin="D0" pad="11"/>
+<connect gate="G$1" pin="D1" pad="12"/>
+<connect gate="G$1" pin="D2" pad="13"/>
+<connect gate="G$1" pin="D3" pad="15"/>
+<connect gate="G$1" pin="D4" pad="16"/>
+<connect gate="G$1" pin="D5" pad="17"/>
+<connect gate="G$1" pin="D6" pad="18"/>
+<connect gate="G$1" pin="D7" pad="19"/>
+<connect gate="G$1" pin="GND" pad="14"/>
+<connect gate="G$1" pin="VCC" pad="28"/>
+<connect gate="G$1" pin="VPP/!OE" pad="22"/>
+</connects>
+<technologies>
+<technology name="C">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="M27C512-90B6" constant="no"/>
+<attribute name="OC_FARNELL" value="1642690" constant="no"/>
+<attribute name="OC_NEWARK" value="20M6389" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="SO" package="SO28W">
+<connects>
+<connect gate="G$1" pin="!CE" pad="20"/>
+<connect gate="G$1" pin="A0" pad="10"/>
+<connect gate="G$1" pin="A1" pad="9"/>
+<connect gate="G$1" pin="A10" pad="21"/>
+<connect gate="G$1" pin="A11" pad="23"/>
+<connect gate="G$1" pin="A12" pad="2"/>
+<connect gate="G$1" pin="A13" pad="26"/>
+<connect gate="G$1" pin="A14" pad="27"/>
+<connect gate="G$1" pin="A15" pad="1"/>
+<connect gate="G$1" pin="A2" pad="8"/>
+<connect gate="G$1" pin="A3" pad="7"/>
+<connect gate="G$1" pin="A4" pad="6"/>
+<connect gate="G$1" pin="A5" pad="5"/>
+<connect gate="G$1" pin="A6" pad="4"/>
+<connect gate="G$1" pin="A7" pad="3"/>
+<connect gate="G$1" pin="A8" pad="25"/>
+<connect gate="G$1" pin="A9" pad="24"/>
+<connect gate="G$1" pin="D0" pad="11"/>
+<connect gate="G$1" pin="D1" pad="12"/>
+<connect gate="G$1" pin="D2" pad="13"/>
+<connect gate="G$1" pin="D3" pad="15"/>
+<connect gate="G$1" pin="D4" pad="16"/>
+<connect gate="G$1" pin="D5" pad="17"/>
+<connect gate="G$1" pin="D6" pad="18"/>
+<connect gate="G$1" pin="D7" pad="19"/>
+<connect gate="G$1" pin="GND" pad="14"/>
+<connect gate="G$1" pin="VCC" pad="28"/>
+<connect gate="G$1" pin="VPP/!OE" pad="22"/>
+</connects>
+<technologies>
+<technology name="C">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
 <device name="L" package="PLCC-32">
 <connects>
 <connect gate="G$1" pin="!CE" pad="23"/>
-<connect gate="G$1" pin="!OE" pad="25"/>
 <connect gate="G$1" pin="A0" pad="11"/>
 <connect gate="G$1" pin="A1" pad="10"/>
 <connect gate="G$1" pin="A10" pad="24"/>
@@ -16660,6 +16739,7 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <connect gate="G$1" pin="A12" pad="3"/>
 <connect gate="G$1" pin="A13" pad="30"/>
 <connect gate="G$1" pin="A14" pad="31"/>
+<connect gate="G$1" pin="A15" pad="2"/>
 <connect gate="G$1" pin="A2" pad="9"/>
 <connect gate="G$1" pin="A3" pad="8"/>
 <connect gate="G$1" pin="A4" pad="7"/>
@@ -16678,99 +16758,47 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <connect gate="G$1" pin="D7" pad="22"/>
 <connect gate="G$1" pin="GND" pad="16"/>
 <connect gate="G$1" pin="VCC" pad="32"/>
-<connect gate="G$1" pin="VPP" pad="2"/>
+<connect gate="G$1" pin="VPP/!OE" pad="25"/>
 </connects>
 <technologies>
 <technology name="C">
 <attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="AT27C256R-70JU" constant="no"/>
-<attribute name="OC_FARNELL" value="1095779" constant="no"/>
-<attribute name="OC_NEWARK" value="96K6554" constant="no"/>
-</technology>
-<technology name="LV">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+<attribute name="MPN" value="M27C512-90C1" constant="no"/>
+<attribute name="OC_FARNELL" value="1218315" constant="no"/>
+<attribute name="OC_NEWARK" value="24M5090" constant="no"/>
 </technology>
 </technologies>
 </device>
-<device name="P" package="DIL28-6">
+<device name="TS" package="TSOP28">
 <connects>
-<connect gate="G$1" pin="!CE" pad="20"/>
-<connect gate="G$1" pin="!OE" pad="22"/>
-<connect gate="G$1" pin="A0" pad="10"/>
-<connect gate="G$1" pin="A1" pad="9"/>
-<connect gate="G$1" pin="A10" pad="21"/>
-<connect gate="G$1" pin="A11" pad="23"/>
-<connect gate="G$1" pin="A12" pad="2"/>
-<connect gate="G$1" pin="A13" pad="26"/>
-<connect gate="G$1" pin="A14" pad="27"/>
-<connect gate="G$1" pin="A2" pad="8"/>
-<connect gate="G$1" pin="A3" pad="7"/>
-<connect gate="G$1" pin="A4" pad="6"/>
-<connect gate="G$1" pin="A5" pad="5"/>
-<connect gate="G$1" pin="A6" pad="4"/>
-<connect gate="G$1" pin="A7" pad="3"/>
-<connect gate="G$1" pin="A8" pad="25"/>
-<connect gate="G$1" pin="A9" pad="24"/>
-<connect gate="G$1" pin="D0" pad="11"/>
-<connect gate="G$1" pin="D1" pad="12"/>
-<connect gate="G$1" pin="D2" pad="13"/>
-<connect gate="G$1" pin="D3" pad="15"/>
-<connect gate="G$1" pin="D4" pad="16"/>
-<connect gate="G$1" pin="D5" pad="17"/>
-<connect gate="G$1" pin="D6" pad="18"/>
-<connect gate="G$1" pin="D7" pad="19"/>
-<connect gate="G$1" pin="GND" pad="14"/>
-<connect gate="G$1" pin="VCC" pad="28"/>
-<connect gate="G$1" pin="VPP" pad="1"/>
-</connects>
-<technologies>
-<technology name="C">
-<attribute name="MF" value="Arrow Electronics" constant="no"/>
-<attribute name="MPN" value="M27C256B15F1" constant="no"/>
-<attribute name="OC_FARNELL" value="1125431" constant="no"/>
-<attribute name="OC_NEWARK" value="93K7335" constant="no"/>
-</technology>
-<technology name="LV">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="SO" package="SO28W">
-<connects>
-<connect gate="G$1" pin="!CE" pad="20"/>
-<connect gate="G$1" pin="!OE" pad="22"/>
-<connect gate="G$1" pin="A0" pad="10"/>
-<connect gate="G$1" pin="A1" pad="9"/>
-<connect gate="G$1" pin="A10" pad="21"/>
-<connect gate="G$1" pin="A11" pad="23"/>
-<connect gate="G$1" pin="A12" pad="2"/>
-<connect gate="G$1" pin="A13" pad="26"/>
-<connect gate="G$1" pin="A14" pad="27"/>
-<connect gate="G$1" pin="A2" pad="8"/>
-<connect gate="G$1" pin="A3" pad="7"/>
-<connect gate="G$1" pin="A4" pad="6"/>
-<connect gate="G$1" pin="A5" pad="5"/>
-<connect gate="G$1" pin="A6" pad="4"/>
-<connect gate="G$1" pin="A7" pad="3"/>
-<connect gate="G$1" pin="A8" pad="25"/>
-<connect gate="G$1" pin="A9" pad="24"/>
-<connect gate="G$1" pin="D0" pad="11"/>
-<connect gate="G$1" pin="D1" pad="12"/>
-<connect gate="G$1" pin="D2" pad="13"/>
-<connect gate="G$1" pin="D3" pad="15"/>
-<connect gate="G$1" pin="D4" pad="16"/>
-<connect gate="G$1" pin="D5" pad="17"/>
-<connect gate="G$1" pin="D6" pad="18"/>
-<connect gate="G$1" pin="D7" pad="19"/>
-<connect gate="G$1" pin="GND" pad="14"/>
-<connect gate="G$1" pin="VCC" pad="28"/>
-<connect gate="G$1" pin="VPP" pad="1"/>
+<connect gate="G$1" pin="!CE" pad="27"/>
+<connect gate="G$1" pin="A0" pad="17"/>
+<connect gate="G$1" pin="A1" pad="16"/>
+<connect gate="G$1" pin="A10" pad="28"/>
+<connect gate="G$1" pin="A11" pad="2"/>
+<connect gate="G$1" pin="A12" pad="9"/>
+<connect gate="G$1" pin="A13" pad="5"/>
+<connect gate="G$1" pin="A14" pad="6"/>
+<connect gate="G$1" pin="A15" pad="8"/>
+<connect gate="G$1" pin="A2" pad="15"/>
+<connect gate="G$1" pin="A3" pad="14"/>
+<connect gate="G$1" pin="A4" pad="13"/>
+<connect gate="G$1" pin="A5" pad="12"/>
+<connect gate="G$1" pin="A6" pad="11"/>
+<connect gate="G$1" pin="A7" pad="10"/>
+<connect gate="G$1" pin="A8" pad="4"/>
+<connect gate="G$1" pin="A9" pad="3"/>
+<connect gate="G$1" pin="D0" pad="18"/>
+<connect gate="G$1" pin="D1" pad="19"/>
+<connect gate="G$1" pin="D2" pad="20"/>
+<connect gate="G$1" pin="D3" pad="22"/>
+<connect gate="G$1" pin="D4" pad="23"/>
+<connect gate="G$1" pin="D5" pad="24"/>
+<connect gate="G$1" pin="D6" pad="25"/>
+<connect gate="G$1" pin="D7" pad="26"/>
+<connect gate="G$1" pin="GND" pad="21"/>
+<connect gate="G$1" pin="VCC" pad="7"/>
+<connect gate="G$1" pin="VPP/!OE" pad="1"/>
 </connects>
 <technologies>
 <technology name="C">
@@ -16790,7 +16818,6 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <device name="VS" package="VSOP28-8X13">
 <connects>
 <connect gate="G$1" pin="!CE" pad="20"/>
-<connect gate="G$1" pin="!OE" pad="22"/>
 <connect gate="G$1" pin="A0" pad="10"/>
 <connect gate="G$1" pin="A1" pad="9"/>
 <connect gate="G$1" pin="A10" pad="21"/>
@@ -16798,6 +16825,7 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <connect gate="G$1" pin="A12" pad="2"/>
 <connect gate="G$1" pin="A13" pad="26"/>
 <connect gate="G$1" pin="A14" pad="27"/>
+<connect gate="G$1" pin="A15" pad="1"/>
 <connect gate="G$1" pin="A2" pad="8"/>
 <connect gate="G$1" pin="A3" pad="7"/>
 <connect gate="G$1" pin="A4" pad="6"/>
@@ -16816,7 +16844,7 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <connect gate="G$1" pin="D7" pad="19"/>
 <connect gate="G$1" pin="GND" pad="14"/>
 <connect gate="G$1" pin="VCC" pad="28"/>
-<connect gate="G$1" pin="VPP" pad="1"/>
+<connect gate="G$1" pin="VPP/!OE" pad="22"/>
 </connects>
 <technologies>
 <technology name="">
@@ -16827,50 +16855,104 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 </technology>
 </technologies>
 </device>
-<device name="TS" package="TSOP28">
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="jumper">
+<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SJ_2W">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="3.175" y1="-1.524" x2="-3.175" y2="-1.524" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="1.524" x2="3.429" y2="1.27" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="1.27" x2="-3.175" y2="1.524" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.175" y2="-1.524" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.175" y1="-1.524" x2="3.429" y2="-1.27" width="0.1524" layer="21" curve="90"/>
+<wire x1="3.429" y1="-1.27" x2="3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.429" y1="-1.27" x2="-3.429" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="1.524" x2="3.175" y2="1.524" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="0" x2="3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="-2.794" y1="0" x2="-3.302" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.397" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="2.032" y1="0.127" x2="2.032" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-2.032" y1="-0.127" x2="-2.032" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="3" x="2.54" y="0" dx="1.27" dy="2.54" layer="1"/>
+<text x="-3.429" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
+<package name="SJ_2">
+<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
+<wire x1="2.159" y1="-1.016" x2="-2.159" y2="-1.016" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="1.016" x2="2.413" y2="0.762" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="0.762" x2="-2.159" y2="1.016" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.159" y2="-1.016" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.159" y1="-1.016" x2="2.413" y2="-0.762" width="0.1524" layer="21" curve="90"/>
+<wire x1="2.413" y1="-0.762" x2="2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.413" y1="-0.762" x2="-2.413" y2="0.762" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="1.016" x2="2.159" y2="1.016" width="0.1524" layer="21"/>
+<wire x1="1.778" y1="0" x2="2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="0" x2="-2.286" y2="0" width="0.1524" layer="51"/>
+<wire x1="0" y1="0.762" x2="0" y2="1.016" width="0.1524" layer="51"/>
+<wire x1="0" y1="-1.016" x2="0" y2="-0.762" width="0.1524" layer="51"/>
+<wire x1="1.016" y1="0.127" x2="1.016" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<wire x1="-1.016" y1="-0.127" x2="-1.016" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
+<smd name="1" x="-1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="2" x="0" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<smd name="3" x="1.524" y="0" dx="1.1684" dy="1.6002" layer="1"/>
+<text x="-2.413" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-0.1001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.508" y1="-0.762" x2="0.508" y2="0.762" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SJ_2">
+<wire x1="-0.635" y1="-1.397" x2="0.635" y2="-1.397" width="1.27" layer="94" curve="180" cap="flat"/>
+<wire x1="-0.635" y1="1.397" x2="0.635" y2="1.397" width="1.27" layer="94" curve="-180" cap="flat"/>
+<wire x1="1.27" y1="-0.635" x2="-1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-0.635" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0.635" x2="1.27" y2="0.635" width="0.1524" layer="94"/>
+<wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<text x="2.54" y="0.381" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-1.905" size="1.778" layer="96">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="-0.635" x2="1.27" y2="0.635" layer="94"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SJ2W" prefix="SJ" uservalue="yes">
+<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="SJ_2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="W" package="SJ_2W">
 <connects>
-<connect gate="G$1" pin="!CE" pad="27"/>
-<connect gate="G$1" pin="!OE" pad="1"/>
-<connect gate="G$1" pin="A0" pad="17"/>
-<connect gate="G$1" pin="A1" pad="16"/>
-<connect gate="G$1" pin="A10" pad="28"/>
-<connect gate="G$1" pin="A11" pad="2"/>
-<connect gate="G$1" pin="A12" pad="9"/>
-<connect gate="G$1" pin="A13" pad="5"/>
-<connect gate="G$1" pin="A14" pad="6"/>
-<connect gate="G$1" pin="A2" pad="15"/>
-<connect gate="G$1" pin="A3" pad="14"/>
-<connect gate="G$1" pin="A4" pad="13"/>
-<connect gate="G$1" pin="A5" pad="12"/>
-<connect gate="G$1" pin="A6" pad="11"/>
-<connect gate="G$1" pin="A7" pad="10"/>
-<connect gate="G$1" pin="A8" pad="4"/>
-<connect gate="G$1" pin="A9" pad="3"/>
-<connect gate="G$1" pin="D0" pad="18"/>
-<connect gate="G$1" pin="D1" pad="19"/>
-<connect gate="G$1" pin="D2" pad="20"/>
-<connect gate="G$1" pin="D3" pad="22"/>
-<connect gate="G$1" pin="D4" pad="23"/>
-<connect gate="G$1" pin="D5" pad="24"/>
-<connect gate="G$1" pin="D6" pad="25"/>
-<connect gate="G$1" pin="D7" pad="26"/>
-<connect gate="G$1" pin="GND" pad="21"/>
-<connect gate="G$1" pin="VCC" pad="7"/>
-<connect gate="G$1" pin="VPP" pad="8"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-<technology name="C">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
+<technology name=""/>
+</technologies>
+</device>
+<device name="" package="SJ_2">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -16948,13 +17030,15 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="1nF"/>
-<part name="IC10" library="microchip" deviceset="27*256" device="L" technology="C"/>
-<part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="JP4" library="pinhead" deviceset="PINHD-1X3" device="/90" value="ROM"/>
-<part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="1nF"/>
+<part name="IC10" library="microchip" deviceset="27*512A" device="L" technology="C"/>
+<part name="SJ2" library="jumper" deviceset="SJ2W" device=""/>
+<part name="SJ1" library="jumper" deviceset="SJ2W" device=""/>
+<part name="JP4" library="pinhead" deviceset="PINHD-1X2" device="/90" value="ROMSEL"/>
+<part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="R17" library="rcl" deviceset="R-EU_" device="R0805" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -17056,13 +17140,15 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <instance part="GND11" gate="1" x="-91.44" y="73.66" rot="R90"/>
 <instance part="GND12" gate="1" x="-129.54" y="48.26"/>
 <instance part="C14" gate="G$1" x="172.72" y="76.2" rot="R90"/>
-<instance part="IC10" gate="G$1" x="-99.06" y="20.32"/>
-<instance part="R17" gate="G$1" x="-149.86" y="-17.78" rot="R90"/>
-<instance part="JP4" gate="A" x="-160.02" y="-2.54" rot="R180"/>
-<instance part="GND13" gate="1" x="-154.94" y="10.16" rot="R180"/>
 <instance part="C15" gate="G$1" x="81.28" y="22.86" rot="R180"/>
 <instance part="GND14" gate="1" x="81.28" y="15.24"/>
 <instance part="C16" gate="G$1" x="167.64" y="12.7" rot="R90"/>
+<instance part="IC10" gate="G$1" x="-99.06" y="17.78"/>
+<instance part="SJ2" gate="G$1" x="-172.72" y="-17.78" rot="R180"/>
+<instance part="SJ1" gate="G$1" x="-157.48" y="43.18" rot="R180"/>
+<instance part="JP4" gate="G$1" x="-167.64" y="15.24" rot="R180"/>
+<instance part="GND13" gate="1" x="-162.56" y="-7.62"/>
+<instance part="R17" gate="G$1" x="-157.48" y="2.54" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -17206,21 +17292,21 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <wire x1="-129.54" y1="58.42" x2="-129.54" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC10" gate="G$1" pin="GND"/>
-<pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="-109.22" y1="-7.62" x2="-111.76" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="-111.76" y1="-7.62" x2="-111.76" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP4" gate="A" pin="3"/>
-<wire x1="-157.48" y1="0" x2="-154.94" y2="0" width="0.1524" layer="91"/>
-<wire x1="-154.94" y1="0" x2="-154.94" y2="7.62" width="0.1524" layer="91"/>
-<pinref part="GND13" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="GND14" gate="1" pin="GND"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="17.78" x2="81.28" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC10" gate="G$1" pin="GND"/>
+<pinref part="GND10" gate="1" pin="GND"/>
+<wire x1="-109.22" y1="-10.16" x2="-111.76" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="-10.16" x2="-111.76" y2="-12.7" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP4" gate="G$1" pin="1"/>
+<wire x1="-165.1" y1="12.7" x2="-162.56" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="-162.56" y1="12.7" x2="-162.56" y2="-5.08" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="+12V" class="0">
@@ -18070,9 +18156,14 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <pinref part="IC5" gate="1" pin="A15"/>
 <wire x1="0" y1="104.14" x2="0" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="0" y1="81.28" x2="-58.42" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="-58.42" y1="81.28" x2="-58.42" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="CN1" gate="G$1" pin="5"/>
+<wire x1="-58.42" y1="81.28" x2="-58.42" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="132.08" x2="-58.42" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="228.6" x2="-5.08" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="-58.42" y1="132.08" x2="-172.72" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="132.08" x2="-172.72" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="-58.42" y="132.08"/>
+<pinref part="SJ2" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="A14" class="0">
@@ -18080,9 +18171,16 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <pinref part="IC5" gate="1" pin="A14"/>
 <wire x1="2.54" y1="104.14" x2="2.54" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="78.74" x2="-60.96" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="-60.96" y1="78.74" x2="-60.96" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="78.74" x2="-60.96" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="CN1" gate="G$1" pin="4"/>
+<wire x1="-60.96" y1="129.54" x2="-60.96" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="-60.96" y1="231.14" x2="-5.08" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="-60.96" y1="129.54" x2="-152.4" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="129.54" x2="-152.4" y2="53.34" width="0.1524" layer="91"/>
+<junction x="-60.96" y="129.54"/>
+<pinref part="SJ1" gate="G$1" pin="3"/>
+<wire x1="-152.4" y1="53.34" x2="-157.48" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-157.48" y1="53.34" x2="-157.48" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A13" class="0">
@@ -18239,8 +18337,7 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <wire x1="99.06" y1="-48.26" x2="-116.84" y2="-48.26" width="0.1524" layer="91"/>
 <wire x1="-116.84" y1="-48.26" x2="-116.84" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="VREG2" gate="A1" pin="VO"/>
-<wire x1="-116.84" y1="45.72" x2="-116.84" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="-116.84" y1="48.26" x2="-116.84" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-116.84" y1="45.72" x2="-116.84" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="-116.84" y1="63.5" x2="-116.84" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="+"/>
 <wire x1="-116.84" y1="63.5" x2="-106.68" y2="63.5" width="0.1524" layer="91"/>
@@ -18249,15 +18346,16 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <wire x1="-116.84" y1="58.42" x2="-119.38" y2="58.42" width="0.1524" layer="91"/>
 <junction x="-116.84" y="58.42"/>
 <pinref part="IC10" gate="G$1" pin="VCC"/>
-<wire x1="-116.84" y1="48.26" x2="-109.22" y2="48.26" width="0.1524" layer="91"/>
-<junction x="-116.84" y="48.26"/>
-<pinref part="IC10" gate="G$1" pin="VPP"/>
-<wire x1="-116.84" y1="45.72" x2="-109.22" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-109.22" y1="45.72" x2="-116.84" y2="45.72" width="0.1524" layer="91"/>
 <junction x="-116.84" y="45.72"/>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="-116.84" y1="-48.26" x2="-149.86" y2="-48.26" width="0.1524" layer="91"/>
-<wire x1="-149.86" y1="-48.26" x2="-149.86" y2="-22.86" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="-48.26" x2="-157.48" y2="-48.26" width="0.1524" layer="91"/>
 <junction x="-116.84" y="-48.26"/>
+<pinref part="SJ2" gate="G$1" pin="1"/>
+<wire x1="-157.48" y1="-48.26" x2="-116.84" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="-22.86" x2="-172.72" y2="-48.26" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="-157.48" y1="-2.54" x2="-157.48" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="-157.48" y="-48.26"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -18301,7 +18399,7 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <wire x1="-116.84" y1="114.3" x2="-139.7" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="114.3" x2="-139.7" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="-139.7" y1="40.64" x2="-109.22" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="IC10" gate="G$1" pin="!OE"/>
+<pinref part="IC10" gate="G$1" pin="VPP/!OE"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -18348,21 +18446,6 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <wire x1="127" y1="172.72" x2="134.62" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="IC10" gate="G$1" pin="A14"/>
-<wire x1="-109.22" y1="-2.54" x2="-157.48" y2="-2.54" width="0.1524" layer="91"/>
-<pinref part="JP4" gate="A" pin="2"/>
-</segment>
-</net>
-<net name="N$26" class="0">
-<segment>
-<pinref part="JP4" gate="A" pin="1"/>
-<pinref part="R17" gate="G$1" pin="2"/>
-<wire x1="-157.48" y1="-5.08" x2="-149.86" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="-149.86" y1="-5.08" x2="-149.86" y2="-12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$27" class="0">
 <segment>
 <pinref part="C16" gate="G$1" pin="2"/>
@@ -18377,6 +18460,34 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <wire x1="180.34" y1="12.7" x2="180.34" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="12.7" x2="180.34" y2="12.7" width="0.1524" layer="91"/>
 <junction x="180.34" y="12.7"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="IC10" gate="G$1" pin="A14"/>
+<wire x1="-109.22" y1="-2.54" x2="-152.4" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="SJ1" gate="G$1" pin="2"/>
+<wire x1="-152.4" y1="-2.54" x2="-152.4" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="IC10" gate="G$1" pin="A15"/>
+<wire x1="-109.22" y1="-5.08" x2="-152.4" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-152.4" y1="-5.08" x2="-152.4" y2="-17.78" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="G$1" pin="2"/>
+<wire x1="-152.4" y1="-17.78" x2="-167.64" y2="-17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<pinref part="SJ1" gate="G$1" pin="1"/>
+<wire x1="-157.48" y1="38.1" x2="-157.48" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="JP4" gate="G$1" pin="2"/>
+<wire x1="-165.1" y1="15.24" x2="-157.48" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="-157.48" y1="7.62" x2="-157.48" y2="15.24" width="0.1524" layer="91"/>
+<junction x="-157.48" y="15.24"/>
 </segment>
 </net>
 </nets>
@@ -18402,7 +18513,7 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <approved hash="114,1,206.616,150.453,IC9,D,I,,,"/>
 <approved hash="104,1,121.92,106.68,IC9P,VCC,+5VREG,,,"/>
 <approved hash="104,1,106.68,106.68,IC7P,VCC,+5VREG,,,"/>
-<approved hash="104,1,-109.22,48.26,IC10,VCC,+5VREG,,,"/>
+<approved hash="104,1,-109.22,45.72,IC10,VCC,+5VREG,,,"/>
 <approved hash="110,1,2.54,104.14,A13,A14,,,,"/>
 <approved hash="110,1,-45.72,93.98,A12,D4,,,,"/>
 <approved hash="110,1,-45.72,93.98,A12,D4,,,,"/>
@@ -18410,6 +18521,8 @@ Source: http://ww1.microchip.com/downloads/en/devicedoc/39632c.pdf</description>
 <approved hash="110,1,-48.26,91.44,A11,D3,,,,"/>
 <approved hash="110,1,22.86,104.14,A8,A6,,,,"/>
 <approved hash="110,1,20.32,104.14,A8,A7,,,,"/>
+<approved hash="113,1,-172.043,-17.78,SJ2,,,,,"/>
+<approved hash="113,1,-156.803,43.18,SJ1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
