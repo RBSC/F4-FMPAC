@@ -1,4 +1,9 @@
-Partlist
+F4/FMPAC Combo Board version 1.3
+Copyright (c) 2016 RBSC
+Portions (c) Kamil Karimov
+
+Partslist
+---------
 
 Part     Value          Package  Library    Position (inch)       Orientation
 
