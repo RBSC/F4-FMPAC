@@ -1,62 +1,60 @@
-F4/FMPAC Combo Board version 1.3
-Copyright (c) 2016 RBSC
+F4/FMPAC Combo Board version 1.4
+Copyright (c) 2016-2019 RBSC
 Portions (c) Kamil Karimov
 
 Partslist
----------
 
-Part     Value          Package  Library    Position (inch)       Orientation
-
-C1       2.2uF25v       SMC_B    rcl        (1.75 2.75)           MR90
-C2       2.2uF25v       SMC_B    rcl        (1.75 3.05)           MR90
-C3       22pF           C0805    rcl        (0.95 3.1)            R90
-C4       22pF           C0805    rcl        (1.55 3.1)            R90
-C5       47uF 16v       SMC_C    rcl        (0.485 2.25)          R270
-C6       47uF 16v       SMC_C    rcl        (0.2 2.25)            R90
-C7       1uF 25v        SMC_B    rcl        (0.75 3.05)           MR90
-C8       100nF          C0805    rcl        (2.2 0.95)            R90
-C9       10uF 16V       SMC_B    rcl        (0.4 0.3)             MR90
-C10      1uF 25v        SMC_B    rcl        (0.45 0.55)           R270
-C11      100nF          C0805    rcl        (0.6 0.4)             MR270
-C12      1uF 25v        SMC_B    rcl        (0.75 2.75)           MR90
-C13      1uF 25v        SMC_B    rcl        (0.45 0.2)            R270
-C14      1nF            C0805    rcl        (0.85 2.2)            MR0
-C15      100nF          C0805    rcl        (1.5 2.25)            MR180
-C16      1nF            C0805    rcl        (0.95 2.3)            MR0
-CN1      DIP40 MB CONN  DIL40    ic-package (1.2 1.6)             R0
-D1       1N4148         MINIMELF diode      (0.98 0.3)            MR270
-IC1      YM2413         DIL18    ic-package (1.75 2.25)           R0
-IC2      74LS30D        SO14     74xx-eu    (1 0.8)               MR0
-IC3      74LS04D        SO14     74xx-eu    (0.5 0.8)             MR0
-IC4      LM4558N        DIL08    linear     (0.95 2.25)           R0
-IC5      Z80            DIL40    zilog      (1.15 1.45)           R0
-IC6      74LS30D        SO14     74xx-eu    (1.5 0.8)             MR0
-IC7      74LS02D        SO14     74xx-eu    (2 0.8)               MR0
-IC8      74LS74D        SO14     74xx-eu    (1.3 0.3)             MR0
-IC9      74LS125D       SO14     74xx-eu    (1.8 0.3)             MR0
-IC10     27C512AL       PLCC-32  microchip  (1.2 0.6)             R90
-JP1      PWR            1X03/90  pinhead    (0.2 2.95)            R0
-JP2      OE/CE          1X02/90  pinhead    (0.16 0.3)            R180
-JP3      OUT            1X03/90  pinhead    (2.15 2.95)           R0
-JP4      ROMSEL         1X02/90  pinhead    (2.19 0.3)            R180
-R1       22k            R0805    rcl        (1.35 2.6)            R90
-R2       22k            R0805    rcl        (0.95 2.6)            R90
-R3       170k           R0805    rcl        (0.95 2.85)           R270
-R4       2.2k           R0805    rcl        (1.55 2.6)            R90
-R5       2.2k           R0805    rcl        (1.15 3.1)            R90
-R6       2.2k           R0805    rcl        (1.55 2.85)           R270
-R7       2.2k           R0805    rcl        (1.35 3.1)            R90
-R8       2.2k           R0805    rcl        (1.35 2.85)           R90
-R9       22k            R0805    rcl        (1.15 2.6)            R270
-R10      22k            R0805    rcl        (1.15 2.85)           R270
-R11      68             R0805    rcl        (0.55 3.1)            MR90
-R12      100            R0805    rcl        (0.35 2.5)            MR90
-R13      100            R0805    rcl        (0.55 2.5)            MR90
-R14      1k             R0805    rcl        (0.6 0.2)             MR270
-R15      4.7k           M0805    rcl        (0.8 0.3)             MR270
-R16      68             R0805    rcl        (0.45 0.95)           R90
-R17      10k            R0805    rcl        (1.95 0.25)           R270
-SJ1                     SJ_2     jumper     (1.95 0.55)           R90
-SJ2                     SJ_2     jumper     (1.95 0.9)            R90
-VREG1    7805L          TO92     linear     (0.52 2.8)            R90
-VREG2    7805L          TO92     linear     (0.18 0.8)            R90
+Part     Value          Device         Package  Library    Sheet
+----------------------------------------------------------------
+C1       2.2uF25v       CPOL-EUSMCB    SMC_B    rcl        1
+C2       2.2uF25v       CPOL-EUSMCB    SMC_B    rcl        1
+C3       22pF           C-EUC0805      C0805    rcl        1
+C4       22pF           C-EUC0805      C0805    rcl        1
+C5       47uF 16v       CPOL-EUSMCC    SMC_C    rcl        1
+C6       47uF 16v       CPOL-EUSMCC    SMC_C    rcl        1
+C7       1uF 25v        CPOL-EUSMCB    SMC_B    rcl        1
+C8       100nF          C-EUC0805      C0805    rcl        1
+C9       10uF 16V       CPOL-EUSMCB    SMC_B    rcl        1
+C10      100nF          C-EUC0805      C0805    rcl        1
+C11      100nF          C-EUC0805      C0805    rcl        1
+C12      1uF 25v        CPOL-EUSMCB    SMC_B    rcl        1
+C13      100nF          C-EUC0805      C0805    rcl        1
+C14      1nF            C-EUC0805      C0805    rcl        1
+C16      1nF            C-EUC0805      C0805    rcl        1
+CN1      DIP40 MB CONN  DIL40          DIL40    ic-package 1
+D1       1N4148         DIODE-MINIMELF MINIMELF diode      1
+IC1      YM2413         DIL18          DIL18    ic-package 1
+IC2      74LS30D        74LS30D        SO14     74xx-eu    1
+IC3      74LS04D        74LS04D        SO14     74xx-eu    1
+IC4      LM4558N        LM4558N        DIL08    linear     1
+IC5      Z80            Z80CPU         DIL40    zilog      1
+IC6      74LS30D        74LS30D        SO14     74xx-eu    1
+IC7      74LS02D        74LS02D        SO14     74xx-eu    1
+IC8      74LS74D        74LS74D        SO14     74xx-eu    1
+IC9      74LS125D       74LS125D       SO14     74xx-eu    1
+IC10     27C512AL       27C512AL       PLCC-32  microchip  1
+JP1      PWR            PINHD-1X3/90   1X03/90  pinhead    1
+JP2      OE/CE          PINHD-1X2/90   1X02/90  pinhead    1
+JP3      OUT            PINHD-1X3/90   1X03/90  pinhead    1
+JP4      ROMSEL         PINHD-1X2/90   1X02/90  pinhead    1
+R1       22k            R-EU_R0805     R0805    rcl        1
+R2       22k            R-EU_R0805     R0805    rcl        1
+R3       170k           R-EU_R0805     R0805    rcl        1
+R4       4.7k           R-EU_R0805     R0805    rcl        1
+R5       2.2k           R-EU_R0805     R0805    rcl        1
+R6       2.2k           R-EU_R0805     R0805    rcl        1
+R7       2.2k           R-EU_R0805     R0805    rcl        1
+R8       2.2k           R-EU_R0805     R0805    rcl        1
+R9       22k            R-EU_R0805     R0805    rcl        1
+R10      22k            R-EU_R0805     R0805    rcl        1
+R11      68             R-EU_R0805     R0805    rcl        1
+R12      100            R-EU_R0805     R0805    rcl        1
+R13      100            R-EU_R0805     R0805    rcl        1
+R14      1k             R-EU_R0805     R0805    rcl        1
+R15      4.7k           R-EU_M0805     M0805    rcl        1
+R17      10k            R-EU_R0805     R0805    rcl        1
+R18      1k             R-EU_R0805     R0805    rcl        1
+SJ1                     SJ2W           SJ_2     jumper     1
+SJ2                     SJ2W           SJ_2     jumper     1
+SJ3                     SJ             SJ       jumper     1
+VREG1    7805L          7805L          TO92     linear     1
