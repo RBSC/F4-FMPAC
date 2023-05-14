@@ -2333,9 +2333,9 @@ design rules under a new name.</description>
 <contactref element="SJ3" pad="1"/>
 <wire x1="59.055" y1="66.675" x2="59.055" y2="62.357" width="0.508" layer="1"/>
 <wire x1="59.055" y1="39.37" x2="59.055" y2="60.96" width="0.508" layer="1"/>
+<wire x1="36.195" y1="58.735" x2="39.055" y2="61.595" width="0.508" layer="16"/>
 <wire x1="59.055" y1="60.96" x2="59.055" y2="60.833" width="0" layer="19" extent="1-1"/>
 <wire x1="59.055" y1="62.357" x2="59.055" y2="60.96" width="0" layer="19" extent="1-1"/>
-<wire x1="39.055" y1="61.595" x2="36.195" y2="58.735" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="N$1">
 <contactref element="IC1" pad="12"/>
