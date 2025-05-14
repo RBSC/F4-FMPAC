@@ -1,11 +1,7 @@
-F4/FMPAC Combo Board version 1.4
-Copyright (c) 2016-2019 RBSC
-Portions (c) Kamil Karimov
-
-Partslist
+Partlist
 
 Part     Value          Device         Package  Library    Sheet
-----------------------------------------------------------------
+
 C1       2.2uF25v       CPOL-EUSMCB    SMC_B    rcl        1
 C2       2.2uF25v       CPOL-EUSMCB    SMC_B    rcl        1
 C3       22pF           C-EUC0805      C0805    rcl        1
@@ -19,8 +15,8 @@ C10      100nF          C-EUC0805      C0805    rcl        1
 C11      100nF          C-EUC0805      C0805    rcl        1
 C12      1uF 25v        CPOL-EUSMCB    SMC_B    rcl        1
 C13      100nF          C-EUC0805      C0805    rcl        1
-C14      1nF            C-EUC0805      C0805    rcl        1
-C16      1nF            C-EUC0805      C0805    rcl        1
+C14      470pF          C-EUC0805      C0805    rcl        1
+C16      470pF          C-EUC0805      C0805    rcl        1
 CN1      DIP40 MB CONN  DIL40          DIL40    ic-package 1
 D1       1N4148         DIODE-MINIMELF MINIMELF diode      1
 IC1      YM2413         DIL18          DIL18    ic-package 1

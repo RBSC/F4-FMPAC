@@ -1,5 +1,5 @@
-F4/FMPAC Combo Board version 1.4
-Copyright (c) 2016-2019 RBSC
+F4/FMPAC Combo Board version 1.5
+Copyright (c) 2016-2025 RBSC
 Portions (c) Kamil Karimov
 
 The provided ROM images are not made by RBSC. The copyright for the ROMs belong to the respective manufacturer - Matsushita Corp.

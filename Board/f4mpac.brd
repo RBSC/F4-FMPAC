@@ -113,7 +113,7 @@
 <text x="39.37" y="80.137" size="1.016" layer="25" font="vector">22k</text>
 <text x="21.59" y="74.422" size="1.016" layer="25" font="vector">22k</text>
 <text x="34.925" y="74.422" size="1.016" layer="25" font="vector">2.2k</text>
-<text x="21.59" y="80.137" size="1.016" layer="25" font="vector">2.2k</text>
+<text x="21.59" y="80.137" size="1.016" layer="25" font="vector">4.7k</text>
 <text x="43.815" y="74.422" size="1.016" layer="25" font="vector">2.2k</text>
 <text x="26.035" y="74.422" size="1.016" layer="25" font="vector">22k</text>
 <text x="39.37" y="76.835" size="1.016" layer="25" font="vector" rot="R90">R2</text>
@@ -184,22 +184,22 @@
 <text x="1.524" y="0.635" size="0.8128" layer="25" font="vector" rot="R90">SLTSEL</text>
 <wire x1="20.32" y1="3.81" x2="40.64" y2="3.81" width="0.254" layer="25"/>
 <wire x1="40.64" y1="3.81" x2="40.64" y2="25.4" width="0.254" layer="25"/>
-<text x="17.145" y="61.595" size="1.016" layer="26" font="vector" rot="MR180">C14</text>
-<text x="17.145" y="60.325" size="1.016" layer="26" font="vector" rot="MR180">1nF</text>
+<text x="17.145" y="60.96" size="1.016" layer="26" font="vector" rot="MR180">C14</text>
+<text x="17.145" y="62.23" size="1.016" layer="26" font="vector" rot="MR180">470pF</text>
 <text x="11.43" y="74.422" size="1.016" layer="25" font="vector">VREG1</text>
 <text x="16.51" y="68.58" size="1.016" layer="25" font="vector" rot="R90">78L05</text>
 <text x="7.62" y="5.334" size="1.27" layer="26" rot="MR180">+</text>
 <wire x1="40.64" y1="25.4" x2="20.32" y2="25.4" width="0.254" layer="25"/>
 <wire x1="20.32" y1="25.4" x2="20.32" y2="3.81" width="0.254" layer="25"/>
-<text x="26.797" y="71.12" size="1.27" layer="26" font="vector" rot="MR180">Version 1.4</text>
-<text x="1.27" y="46.355" size="1.27" layer="25" font="vector" rot="R270">Version 1.4</text>
+<text x="26.797" y="71.12" size="1.27" layer="26" font="vector" rot="MR180">Version 1.5</text>
+<text x="1.27" y="46.355" size="1.27" layer="25" font="vector" rot="R270">Version 1.5</text>
 <text x="34.29" y="15.24" size="1.27" layer="25" font="vector" rot="R180">27c256</text>
 <text x="54.737" y="15.24" size="1.27" layer="25" font="vector">JP4</text>
 <text x="40.64" y="62.865" size="1.016" layer="26" font="vector" rot="MR0">C8</text>
 <text x="41.91" y="59.436" size="1.016" layer="26" font="vector" rot="MR0">100nF</text>
 <text x="60.071" y="14.732" size="1.27" layer="25" font="vector" rot="R180">ROMSEL</text>
-<text x="29.845" y="62.865" size="1.016" layer="26" font="vector" rot="MR0">C16</text>
-<text x="29.845" y="61.595" size="1.016" layer="26" font="vector" rot="MR0">1nF</text>
+<text x="29.845" y="62.23" size="1.016" layer="26" font="vector" rot="MR0">C16</text>
+<text x="29.845" y="60.96" size="1.016" layer="26" font="vector" rot="MR0">470pF</text>
 <text x="23.495" y="61.595" size="1.6764" layer="25" font="vector">AMP</text>
 <text x="43.18" y="61.595" size="1.6764" layer="25" font="vector">OPLL</text>
 <text x="50.8" y="36.83" size="1.143" layer="26" font="vector" rot="MR0">Board design and improvements by RBSC (2018)</text>
@@ -2105,9 +2105,9 @@ design rules under a new name.</description>
 <element name="JP1" library="pinhead" package="1X03/90" value="PWR" x="5.08" y="74.93" smashed="yes"/>
 <element name="R12" library="rcl" package="R0805" value="100" x="8.255" y="63.5" smashed="yes" rot="MR90"/>
 <element name="JP2" library="pinhead" package="1X02/90" value="OE/CE" x="4.064" y="6.985" smashed="yes" rot="R180"/>
-<element name="C14" library="rcl" package="C0805" value="1nF" x="22.225" y="60.325" smashed="yes" rot="MR0"/>
+<element name="C14" library="rcl" package="C0805" value="470pF" x="22.225" y="60.325" smashed="yes" rot="MR0"/>
 <element name="C8" library="rcl" package="C0805" value="100nF" x="40.005" y="61.595" smashed="yes" rot="MR180"/>
-<element name="C16" library="rcl" package="C0805" value="1nF" x="24.765" y="62.865" smashed="yes" rot="MR0"/>
+<element name="C16" library="rcl" package="C0805" value="470pF" x="24.765" y="62.865" smashed="yes" rot="MR0"/>
 <element name="IC10" library="microchip" package="PLCC-32" value="27C512AL" x="30.48" y="15.24" smashed="yes" rot="R90">
 <attribute name="MPN" value="M27C512-90C1" x="30.48" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="24M5090" x="30.48" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>

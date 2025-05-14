@@ -17149,10 +17149,10 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="R12" library="rcl" deviceset="R-EU_" device="R0805" value="100"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="JP2" library="pinhead" deviceset="PINHD-1X2" device="/90" value="OE/CE"/>
-<part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="1nF"/>
+<part name="C14" library="rcl" deviceset="C-EU" device="C0805" value="470pF"/>
 <part name="C8" library="rcl" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="1nF"/>
+<part name="C16" library="rcl" deviceset="C-EU" device="C0805" value="470pF"/>
 <part name="IC10" library="microchip" deviceset="27*512A" device="L" technology="C"/>
 <part name="SJ2" library="jumper" deviceset="SJ2W" device=""/>
 <part name="SJ1" library="jumper" deviceset="SJ2W" device=""/>
@@ -17185,6 +17185,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <text x="119.38" y="111.76" size="2.54" layer="95">Board and optimizations by RBSC (2016-2018)</text>
 <text x="88.9" y="5.08" size="1.778" layer="95">Digital and analogue
 GND separation</text>
+<text x="119.38" y="106.68" size="2.54" layer="95">Revision 1.5</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="55.88" y="50.8"/>
